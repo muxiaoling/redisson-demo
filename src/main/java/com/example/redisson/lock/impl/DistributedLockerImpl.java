@@ -13,7 +13,7 @@ import java.util.concurrent.TimeUnit;
  * @author muxiaoling
  * @date 2022/9/14 20:58
  */
-@Service
+@Component
 public class DistributedLockerImpl implements DistributedLocker {
     @Autowired
     private RedissonClient redissonClient;
